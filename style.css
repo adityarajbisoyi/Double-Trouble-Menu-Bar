@@ -1,0 +1,74 @@
+body {
+  background-color: skyblue;
+  font-family: "Tiny5", sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+}
+
+
+
+.yowaimo-style{
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100%;
+  font-style: normal;
+  font-size: 28pt;
+}
+
+.container-max{
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+    align-items:end;
+    color: mediumpurple;
+    background-color: blue;
+}
+
+.image-max{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+}
+
+.menu1 {
+  display: flex;
+  justify-content: space-evenly;
+  color: yellow;
+  height: 100px;
+  align-items: center;
+  order: 1;
+  grid-column: span 2;
+}
+
+.actual-content {
+  order: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: span 2;
+}
+
+.menu2 {
+  display: flex;
+  justify-content: space-evenly;
+  color: aqua;
+  height: 100px;
+  align-items: center;
+  order: 3;
+  grid-column: span 2;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 1fr 5fr 1fr;
+  gap: 0%;
+}
+
+.menu1 a {
+  color: blue;
+}
+
+.menu2 a {
+  color: red;
+}
